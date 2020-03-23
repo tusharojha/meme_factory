@@ -1,16 +1,22 @@
-# meme_factory
+# Meme Factory App
 
-A Meme Factory  App
+Meme Factory app is an iOS style flutter app for making humorous memes. Supports both Android & iOS.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This app is currently under development, it is getting memes image from an api i.e. `http://alpha-meme-maker.herokuapp.com/:page`
 
-A few resources to get you started if this is your first Flutter project:
+This app is developed to highlight cupertino package of Flutter, i.e. iOS style app which supports both Android & iOS.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+The following things are done (App is under-development):
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Added Basic iOS style homepage
+- Added Dark theme support
+- Added Image Loader animation (CupertinoActivityIndicator)
+
+## Contribute
+Contributing to the app is highly appriciated
+
+Pull Requests are requested
+
+Issues need to be issued
