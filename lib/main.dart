@@ -31,6 +31,8 @@ class _HomePageState extends State<HomePage> {
   int item = 0;
   Memes memesData;
 
+  TextEditingController topTextController, bottomTextController;
+
   void loadMemeImages() async {
     http.Response response =
         await http.get('http://alpha-meme-maker.herokuapp.com/$page/');
@@ -125,6 +127,7 @@ class _HomePageState extends State<HomePage> {
               Padding(
                 padding: const EdgeInsets.all(18.0),
                 child: CupertinoTextField(
+                  controller: topTextController,
                   padding: EdgeInsets.all(10),
                   placeholder: 'Enter Top Text',
                   suffix: Padding(
@@ -139,6 +142,7 @@ class _HomePageState extends State<HomePage> {
               Padding(
                 padding: const EdgeInsets.all(18.0),
                 child: CupertinoTextField(
+                  controller: bottomTextController,
                   padding: EdgeInsets.all(10),
                   placeholder: 'Enter Bottom Text',
                   suffix: Padding(
